@@ -1,0 +1,51 @@
+[
+  {
+    "img": "https://mykamar.com/img/c/23-0_thumb.jpg",
+    "itemName": "Замена покрышек",
+    "itemPrice": 9000,
+    "category": "whell",
+    "isAdded": false
+  },
+  {
+    "img": "https://gas-kvas.com/uploads/posts/2023-02/1675814193_gas-kvas-com-p-trafareti-risunkov-dlya-diskov-5.png",
+    "itemName": "Шлефовка дисок - замена",
+    "itemPrice": 15000,
+    "category": "whell",
+    "isAdded": false
+  },
+  {
+    "img": "https://avatars.mds.yandex.net/i?id=d303bcdf3509165ccf4c345d80ee51591f7a5ca2-4210718-images-thumbs&n=13",
+    "itemName": "Подбор - диагностика дисок",
+    "itemPrice": 4000,
+    "category": "whell",
+    "isAdded": false
+  },
+  {
+    "img": "https://cdn3.iconfinder.com/data/icons/auto-parts-5/32/Auto_Parts-04-1024.png",
+    "itemName": "Установка сабвуфера",
+    "itemPrice": 6500,
+    "category": "music",
+    "isAdded": false
+  },
+  {
+    "img": "https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-znachok-dinamika-na-prozrachnom-fone-18.png",
+    "itemName": "Замена музыкальных колонок",
+    "itemPrice": 10300,
+    "category": "music",
+    "isAdded": false
+  },
+  {
+    "img": "https://agrox.by/files/images/1600_3.png",
+    "itemName": "Покраска и ремонт кузова",
+    "itemPrice": 20100,
+    "category": "body",
+    "isAdded": false
+  },
+  {
+    "img": "https://agrox.by/files/images/1600_3.png",
+    "itemName": "Шлифовка кузова",
+    "itemPrice": 15100,
+    "category": "body",
+    "isAdded": false
+  }
+]

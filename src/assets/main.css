@@ -6,6 +6,33 @@
   text-decoration: none;
 }
 body {
+  height: 100%;
   font-family: 'Inter', sans-serif;
+  overflow: hidden;
 }
-
+.btn{
+  background-color: black;
+  color: #fff;
+  padding: 8px 0;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px #ffffff00 solid;
+  transition: .3s;
+}
+.btn:hover{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px #000000 solid;
+  color: black;
+}
+.btn_two{
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 0;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px #ffffff solid;
+  transition: .3s;
+}
+.btn_two:hover{
+  background-color: rgba(255, 255, 255, 0.199);
+}
