@@ -58,6 +58,7 @@ const props = defineProps({
   border-left: 2px rgba(0, 0, 0, 0.116) solid;
   padding: 15px;
   transition: 0.4s;
+  padding-bottom: 40px;
 }
 .active {
   right: 0;
@@ -73,9 +74,9 @@ const props = defineProps({
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-  width: 55px;
-  height: 55px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: fixed;
   right: 40px;
@@ -86,17 +87,18 @@ const props = defineProps({
 }
 .card__num {
   position: absolute;
-  left: -12px;
-  top: -9px;
+  left: -7px;
+  top: -5px;
   background-color: rgb(255, 51, 51);
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 23px;
+  height: 23px;
   padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+  font-size: 13px;
 }
 .cart__btn img {
   width: 100%;
@@ -130,7 +132,7 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   row-gap: 25px;
-  max-height: 650px;
+  max-height: 620px;
   min-height: 600px;
   overflow: auto;
   margin-bottom: 15px;
@@ -165,5 +167,24 @@ const props = defineProps({
   font-size: 25px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.144);
+}
+@media(max-width: 650px){
+  .item{
+    font-size: 12px;
+    row-gap: 10px;
+  }
+  .btn{
+    width: 80px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .close{
+    margin-bottom: 25px;
+  }
+  .wrapp__item {
+    row-gap: 15px;
+    max-height: 490px;
+    min-height: 346px;
+  }
 }
 </style>
