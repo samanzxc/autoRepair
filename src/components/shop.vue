@@ -3,7 +3,6 @@ import { ref } from 'vue'
 import itemss from '/src/assets/items.json'
 import cartList from './cart.vue'
 
-
 let itemStorage = JSON.parse(localStorage.getItem('item'))
 let items = ref([])
 let cart = ref([])
@@ -181,7 +180,9 @@ function updateCart(){
   border-bottom: 2px black solid;
 }
 .added {
-  background-color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(75, 74, 74)}
+.added:hover{
+  color: #fff;
 }
 @media (max-width: 490px) {
   .item__filter {

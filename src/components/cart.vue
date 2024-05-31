@@ -26,7 +26,7 @@ const props = defineProps({
           <p>Стоимость:</p>
           <span class="dec"></span><b>{{ item.itemPrice }}₽</b>
         </div>
-        <button class="btn" @click="props.addToCart(item)">Убрать</button>
+        <button class="btn remove" @click="props.addToCart(item)">Убрать</button>
       </div>
     </div>
     <div class="finish">
@@ -124,9 +124,13 @@ const props = defineProps({
   bottom: 10px;
 }
 .btn {
-  width: 100px;
-  height: 35px;
+  width: 100%;
+  height: 40px;
   padding: 0;
+}
+.remove{
+  width: 100px;
+  height: 30px;
 }
 .wrapp__item {
   display: flex;
@@ -172,11 +176,6 @@ const props = defineProps({
   .item{
     font-size: 12px;
     row-gap: 10px;
-  }
-  .btn{
-    width: 80px;
-    height: 30px;
-    font-size: 11px;
   }
   .close{
     margin-bottom: 25px;

@@ -7,16 +7,15 @@ import footers from './components/footers.vue'
 </script>
 
 <template>
-<headers/>
 
+<headers/>
 <main>
 <about/>
 <shop/>
 </main>
-
 <footers/>
-</template>
 
+</template>
 <style scoped>
 
 </style>
