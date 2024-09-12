@@ -54,7 +54,7 @@ const props = defineProps({
   top: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 2;
+  z-index: 20;
   border-left: 2px rgba(0, 0, 0, 0.116) solid;
   padding: 15px;
   transition: 0.4s;
@@ -81,7 +81,7 @@ const props = defineProps({
   position: fixed;
   right: 40px;
   bottom: 40px;
-  z-index: 2;
+  z-index: 20;
   background-color: #ebebeb;
   cursor: pointer;
 }

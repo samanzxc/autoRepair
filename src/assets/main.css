@@ -10,6 +10,34 @@ body {
   font-family: 'Inter', sans-serif;
   overflow: hidden;
 }
+h1::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
+p::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
+b::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
+h3::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
+strong::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
+a::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
+span::selection{
+  color: rgb(255, 79, 79);
+  background: #f351514f;
+}
 .btn{
   background-color: black;
   color: #fff;

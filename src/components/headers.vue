@@ -39,7 +39,7 @@ let isActive = ref(false)
 
 <style scoped>
 header {
-  background: url('/src/assets/image/mainCar.png') 50% / cover no-repeat;
+  background: url('/src/assets/image/mainCar.jpeg') 50% / cover no-repeat;
   min-height: 100dvh;
   position: relative;
   padding: 60px 75px;
@@ -52,7 +52,7 @@ header {
   top: 0;
   bottom: 0;
   background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.849) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.685) 0%, rgba(0, 0, 0, 0.877) 100%);
   z-index: -1;
 }
 .header__top {
@@ -229,5 +229,9 @@ a {
 }
 .active {
   right: 0;
+}
+.btn:hover{
+  color: #fff;
+  border: 1px #fff solid;
 }
 </style>

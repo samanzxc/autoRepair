@@ -10,19 +10,19 @@ import { ref } from 'vue'
     </p>
     <div class="car__info">
       <img class="car" src="/src/assets/image/car.png" alt="car" />
-      <b class="r-info__text-1 row-t">Покраска кузова</b>
+      <b class="r-info__text-1 row-t">Покраска <span class="red">кузова</span></b>
       <img class="r1 row" src="/src/assets/image/rowInfo.png" alt="rowInfo" />
-      <b class="r-info__text-2 row-t">Полировка кузова</b>
+      <b class="r-info__text-2 row-t">Полировка <span class="red">кузова</span></b>
       <img class="r2 row" src="/src/assets/image/rowInfo.png" alt="rowInfo" />
 
-      <b class="r-info__text-3 row-t">Установка сабвуфера</b>
+      <b class="r-info__text-3 row-t">Установка <span class="red">сабвуфера</span></b>
       <img class="r3 row" src="/src/assets/image/rowInfo.png" alt="rowInfo" />
-      <b class="r-info__text-4 row-t">Замена колонок</b>
+      <b class="r-info__text-4 row-t">Замена <span class="red">колонок</span></b>
       <img class="r4 row" src="/src/assets/image/rowInfo.png" alt="rowInfo" />
 
-      <b class="r-info__text-5 row-t">Полировка Дисок</b>
+      <b class="r-info__text-5 row-t">Полировка <span class="red">Дисок</span></b>
       <img class="r5 row" src="/src/assets/image/rowInfo.png" alt="rowInfo" />
-      <b class="r-info__text-6 row-t">Замена Покрышек</b>
+      <b class="r-info__text-6 row-t">Замена <span class="red">Покрышек</span></b>
       <img class="r6 row" src="/src/assets/image/rowInfo.png" alt="rowInfo" />
     </div>
     <a href="#shop"><button class="btn">К услугам</button></a>
@@ -37,9 +37,8 @@ import { ref } from 'vue'
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   row-gap: 50px;
-  border-bottom: 2px rgba(0, 0, 0, 0.045) solid;
 }
 .about__title {
   font-size: 40px;
@@ -50,6 +49,9 @@ import { ref } from 'vue'
   margin-bottom: 100px;
 }
 .about__text b {
+  color: rgb(202, 24, 24);
+}
+.red{
   color: rgb(202, 24, 24);
 }
 .car__info {
