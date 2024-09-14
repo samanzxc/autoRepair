@@ -128,6 +128,9 @@ form input {
 .btn {
   color: #fff;
 }
+.btn:hover{
+  color: black;
+}
 .succesSand {
   position: absolute;
   top: -70px;

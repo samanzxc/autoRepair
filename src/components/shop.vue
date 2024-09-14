@@ -82,7 +82,7 @@ function updateCart(){
                 <span>{{ item.itemPrice }}₽</span>
               </div>
             </div>
-            <button class="btn" @click="addToCart(item)" :class="{ added: item.isAdded == true }">
+            <button class="btn" @click="addToCart(item)" :class="{ added: item.isAdded}">
               В корзину
             </button>
           </div>
